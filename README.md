@@ -1,2 +1,1 @@
-# js-extensions
-Sample JavaScript Extensions
+Sample JavaScript Extensions for HAL.

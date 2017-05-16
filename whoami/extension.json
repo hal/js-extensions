@@ -1,0 +1,11 @@
+{
+  "name": "whoami",
+  "version": "0.0.1",
+  "description": "Shows details about the current user",
+  "script": "extension.js",
+  "stylesheets": [],
+  "extension-point": "header",
+  "author": "Harald Pehl",
+  "license": "Apache-2.0",
+  "homepage": "http://hpehl.info"
+}

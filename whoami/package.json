@@ -1,0 +1,14 @@
+{
+  "name": "tail",
+  "version": "1.0.0",
+  "description": "HAL extension to show a tail of the server(s) log file",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harald Pehl <harald.pehl@gmail.com> (http://hpehl.info)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "hal-edk": "file:hal-edk-0.8.0.tgz"
+  }
+}
