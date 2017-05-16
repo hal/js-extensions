@@ -1,8 +1,9 @@
 (function () {
 
+    let core = hal.core.Core.getInstance();
     let whoami = hal.core.Extension.header("whoami", "Who am I?",
+
         function () {
-            let core = hal.core.Core.getInstance();
             let operation = core.operation(hal.dmr.ResourceAddress.root(), "whoami")
                 .param("verbose", true)
                 .build();
@@ -17,6 +18,6 @@ Mapped roles: [${roles}].`);
             });
         });
 
-    hal.core.Core.getInstance().extensionRegistry.register(whoami);
+    core.extensionRegistry.register(whoami);
 
 }());
