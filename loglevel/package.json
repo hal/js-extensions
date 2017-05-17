@@ -1,7 +1,7 @@
 {
-  "name": "whoami",
-  "version": "0.0.1",
-  "description": "Shows information about the current user",
+  "name": "loglevel",
+  "version": "1.0.0",
+  "description": "Changes the level of the root logger and the conosle handler",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

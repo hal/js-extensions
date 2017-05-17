@@ -1,7 +1,7 @@
 {
-  "name": "whoami",
+  "name": "loglevel",
   "version": "0.0.1",
-  "description": "Shows details about the current user",
+  "description": "Changes the level of the root logger and the console handler",
   "script": "extension.js",
   "stylesheets": [],
   "extension-point": "header",
