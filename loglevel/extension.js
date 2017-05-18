@@ -20,7 +20,6 @@
     function chooseLogLevel(profiles) {
         let dialog = core.dialog("Choose Log Level")
             .add(content[0])
-            // .size("LARGE")
             .okCancel(changeLogLevel)
             .build();
         dialog.show();
@@ -124,6 +123,6 @@
         </div>
     </section>`);
 
-    core.extensionRegistry.register(hal.core.Extension.header("loglevel", "Change Log Level", readProfiles));
+    core.extensionRegistry.register(hal.core.Extension.header("log-level", "Change Log Level", readProfiles));
 
 })();
