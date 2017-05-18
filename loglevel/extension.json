@@ -1,5 +1,5 @@
 {
-  "name": "loglevel",
+  "name": "log-level",
   "version": "0.0.1",
   "description": "Changes the level of the root logger and the console handler",
   "script": "extension.js",

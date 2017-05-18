@@ -1,7 +1,7 @@
 (function () {
 
     let core = hal.core.Core.getInstance();
-    let whoami = hal.core.Extension.header("whoami", "Who am I?", () => {
+    core.extensionRegistry.register(hal.core.Extension.header("whoami", "Who am I?", () => {
         let operation = core.operation(hal.dmr.ResourceAddress.root(), "whoami")
             .param("verbose", true)
             .build();
@@ -14,7 +14,6 @@
             alert(`You are user ${username} at ${realm}.
 Mapped roles: [${roles}].`);
         });
-    });
-    core.extensionRegistry.register(whoami);
+    }));
 
-}());
+})();
