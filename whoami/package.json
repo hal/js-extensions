@@ -9,6 +9,6 @@
   "author": "Harald Pehl <harald.pehl@gmail.com> (http://hpehl.info)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "hal-edk": "^0.8.1"
+    "hal-edk": "^0.8.2"
   }
 }
