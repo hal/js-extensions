@@ -9,4 +9,4 @@ Repository which contains sample JavaScript extensions for [HAL.next](https://gi
 1. Click finish
 
 **Please note:**  
-The examples are written in ES6. You'll need a modern browser run them.
+The examples in this repository are written in ES6. You'll need a modern browser run them.
