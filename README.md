@@ -1,6 +1,6 @@
 # JavaScript Extensions
 
-Repository which contains sample JavaScript extensions for [HAL.next](https://github.com/hal/hal.next). You can try the extensions using the latest version of HAL.next:
+Repository which contains sample JavaScript extensions for [HAL](https://github.com/hal/console). You can try the extensions using the latest version of HAL.next:
 
 1. Switch to tab 'Management'
 1. Select 'Extensions' and click the add icon
