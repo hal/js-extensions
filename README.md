@@ -4,7 +4,7 @@ Repository which contains sample JavaScript extensions for [HAL.next](https://gi
 
 1. Switch to tab 'Management'
 1. Select 'Extensions' and click the add icon
-1. Specify the URL to `<sample>/extension.json`. Use [RawGit](https://rawgit.com/) to get an URL.
+1. Specify the URL to `<sample>/extension.json`. Use [GitHub pages](https://hal.github.io/js-extensions/) to get an URL.
 1. Verify extension metadata
 1. Click finish
 
